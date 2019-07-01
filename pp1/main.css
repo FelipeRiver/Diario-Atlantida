@@ -1,0 +1,137 @@
+body {
+    width: 100%;
+    background-color: lightgray;
+}
+
+#cabecera {
+    text-align: center;
+    padding: 20px;
+    background-color: #272727;
+    color: white;
+    font-family: serif;
+    font-size: 40px;
+}
+
+nav {
+    background-color: #333333;
+    padding: 10px;
+}
+
+ul {
+    margin-left: 5%;
+}
+
+figure {}
+
+footer {
+    background-color: #000000;
+    padding: 20px;
+    color: white;
+    border-top: 2px black;
+    text-align: center;
+    font-family: Tahoma;
+    clear: both;
+    margin-top: 1%;
+}
+
+li {
+    display: inline;
+    margin: 0px 5px;
+    padding: 10px;
+    -moz-transition: 0.1s ease 0.1s;
+    -webkit-transition: 0.1s ease 0.1s;
+    -o-transition: 0.1s ease 0.1s;
+    -ms-transition: 0.1s ease 0.1s;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+li:hover {
+    background-color: #111111;
+    text-decoration: underline;
+    -moz-transform: scale(1.2);
+    -webkit-transform: scaleY(10px; ) -ms-transform:scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+#icons {
+    float: right;
+    margin-top: -17px;
+    margin-right: 2%;
+}
+
+img {
+    margin: 0 10px;
+    -moz-transition: 0.1s ease 0.1s;
+    -webkit-transition: 0.1s ease 0.1s;
+    -o-transition: 0.1s ease 0.1s;
+    -ms-transition: 0.1s ease 0.1s;
+}
+
+ul img:hover {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+div img:hover {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+aside {
+    background-color: #272727;
+    width: 20%;
+    color: white;
+    font-family: Tahoma;
+}
+aside:hover{
+    box-shadow: #272727 5px 5px 10px;
+}
+p {
+    text-align: justify;
+    font-size: 100%;
+    text-decoration: none;
+}
+
+figure{
+    margin: 60px auto;
+    align-content: center;
+    text-align: center;
+
+} 
+#aside1 {
+    float: left;
+    padding: 20px;
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 5px;
+}
+
+#aside2 {
+    float: right;
+    padding: 20px;
+}
+
+#h21 {
+    text-align: center;
+    padding: 50px;
+    font-size: 1.5em;
+    text-decoration: underline yellow;
+}
+
+#h22 {
+    color: white;
+    text-decoration: underline yellow;
+    text-align: center;
+    padding: 50px;
+    font-size: 1.5em;
+}
